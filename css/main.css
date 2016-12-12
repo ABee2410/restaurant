@@ -1,0 +1,165 @@
+/*** sectioning elements ***/
+
+body {
+background-color: #fff;
+margin-left: auto;
+margin-right: auto;
+}
+
+header {
+background-color: #7bcb7e;
+}
+
+main {
+
+}
+
+footer {
+background-color: #7bcb7e;
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+font-family: 'Vast Shadow', cursive;
+color: #292929;
+}
+
+h2 {
+font-family: 'Playfair Display', serif;
+color: #292929;
+font-size: 26px;
+}
+
+h3 {
+font-family: 'Oswald', sans-serif;
+font-size: 22px;
+color: #3a3a3a;
+}
+
+h4 {
+  font-family: 'Vast Shadow', cursive;
+color: #292929;
+font-size: 47px;
+
+
+
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+font-family: 'Raleway', sans-serif;
+color: #3a3a3a;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+list-style-type:  none;
+}
+
+li {
+
+}
+
+table {
+align-content: center;
+column-rule-color: #7bcb7e;
+border-collapse: collapse;
+margin: 0 auto;
+width: 100%
+}
+
+tr {
+
+}
+tr:nth-child(even) {
+    background-color: #fff;
+    color: #7bcb7e;
+}
+tr:nth-child(odd){
+background-color: #7bcb7e;
+color: #3a3a3a;
+}
+th {
+  font-family: 'Vast Shadow', cursive;
+  font-size: 20px;
+}
+
+td {
+  font-family: 'Raleway', sans-serif;
+font-size:  22px;
+}
+
+
+/*** image styles ***/
+
+img  {
+max-width: 100%;
+padding-top: 10px;
+margin:auto;
+}
+
+img.table{
+  margin: auto;
+}
+img.social  {
+height: 60px;
+width: 60px;
+padding-top: 10px;
+padding-left: 5px;
+}
+
+/*** link styles ***/
+
+a:link {
+    text-decoration: none;
+    color: #7bcb7e;
+
+}
+a:link.footer {
+    text-decoration: none;
+    color: #000000;
+
+}
+
+a:visited {
+color: #7bcb7e;
+text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+    color: #fac8e1;
+}
+
+a:active {
+    color: #88dfff;
+}
